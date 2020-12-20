@@ -25,7 +25,6 @@ function App() {
       todos.map((todo) =>
         todo.key === key ? {...todo, isDone: !todo.isDone} : todo,
       ),
-      console.log("test")
     );
     
   };
